@@ -1,6 +1,5 @@
 package com.familyfund.infrastructure.persistence.member;
 
-import com.familyfund.application.member.port.MemberRepository;
 import com.familyfund.domain.member.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 

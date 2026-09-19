@@ -24,7 +24,7 @@ class MemberTest {
         member.addPhone(phone);
 
         assertEquals(1, member.getPhones().size());
-        assertSame(phone, member.getPhones().get(0));
+        assertSame(phone, member.getPhones().getFirst());
         assertSame(member, phone.getMember());
     }
 

@@ -133,7 +133,7 @@ class MemberServiceTest {
 
         assertEquals(1, result.getPhones().size());
 
-        MemberPhone phone = result.getPhones().get(0);
+        MemberPhone phone = result.getPhones().getFirst();
 
         assertEquals("09121234567", phone.getPhoneNumber());
         assertEquals(PhoneType.MOBILE, phone.getPhoneType());
